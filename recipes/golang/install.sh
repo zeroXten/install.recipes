@@ -12,4 +12,4 @@ else
   arch="386"
 end
 
-puts "hi"
+echo "hi"
