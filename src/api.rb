@@ -12,7 +12,7 @@ class MyServlet < WEBrick::HTTPServlet::AbstractServlet
     end
 
     response.status = 302
-    response['Location'] = "https://badger.com/#{path}"
+    response['Location'] = "https://raw.githubusercontent.com/zeroXten/install.recipes/master/recipes/#{path}"
   end
 end
 

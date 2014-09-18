@@ -10,6 +10,6 @@ if [[ "$arch" = "x86_64" ]]; then
   arch="amd64"
 else
   arch="386"
-end
+fi
 
 echo "hi"
